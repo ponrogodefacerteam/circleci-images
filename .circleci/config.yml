@@ -201,7 +201,7 @@ jobs:
 
   publish_image: &publish_image
     machine:
-      image: ubuntu-1604:202004-01
+      image: ubuntu-1604:202007-01
     working_directory: ~/circleci-bundles
     shell: /bin/bash -eol pipefail
     parameters:
